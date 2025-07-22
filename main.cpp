@@ -1,7 +1,8 @@
 #include <iostream>
-using namepsace std;
+#include "helper.hpp"
+using namespace std;
 
 int main() {
-	cout << "Hello, world!" << endl;
+	PrintMessage();
 	return 0;
 }
